@@ -13,12 +13,16 @@ footer#main-footer{
 footer#main-footer .powered div{
     display: flex;
     justify-content: center;
+    align-items: center;
+    margin-top: 5px;
 }
 
 footer#main-footer .powered p{
+    margin-top: 2px;
     font-size: 11px;
 }
 
 footer#main-footer .powered img{
+    margin-left: 5px;
     max-height: 20px;
 }

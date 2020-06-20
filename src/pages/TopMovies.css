@@ -8,6 +8,9 @@ section#movie-list{
     justify-content: space-between;
     margin-top: 20px;
 }
+section#movie-list a{
+    text-decoration: none;
+}
 section#movie-list article{
     flex: 0 0 200px;
     background-color: #2f3640;
@@ -44,6 +47,8 @@ section#movie-list footer .movie-content .movie-score{
     padding: 5px;
     margin-right: -1px;
     box-shadow: -5px 5px 10px -4px rgba(0,0,0,.2);
+    min-width: 25px;
+    text-align: center;
 }
 section#movie-list footer .movie-content .movie-info{
     display: flex;
@@ -70,4 +75,7 @@ section#movie-list footer .movie-description p.movie-tags{
     overflow:hidden;
     width: 100%;
     color:#7f8fa6;
+}
+section#movie-list footer .movie-description p.movie-tags span:not(:first-child):before{
+    content: ", ";
 }

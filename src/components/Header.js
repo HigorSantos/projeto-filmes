@@ -7,9 +7,9 @@ import Lupa from '../assets/lupa.png';
 function Header() {
   return(
     <header id="main-header">
-        <div class="header-content">
-            <img src={Logo} alt="Projeto Filmes" class="img-logo"/>
-            <div class="header-search">
+        <div className="header-content">
+            <img src={Logo} alt="Projeto Filmes" className="img-logo"/>
+            <div className="header-search">
                 <span>Teste</span>
                 <img src={Lupa} alt="Buscar"/>
             </div>
