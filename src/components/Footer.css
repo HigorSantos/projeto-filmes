@@ -1,0 +1,24 @@
+footer#main-footer{
+    text-align: center;
+    color: #f5f6fa;
+    width: 100%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 120px;
+    font-size: 14px;
+}
+
+footer#main-footer .powered div{
+    display: flex;
+    justify-content: center;
+}
+
+footer#main-footer .powered p{
+    font-size: 11px;
+}
+
+footer#main-footer .powered img{
+    max-height: 20px;
+}
