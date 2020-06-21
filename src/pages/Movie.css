@@ -56,7 +56,7 @@ section#movie-data #movie-info{
 }
 section#movie-data #movie-info .movie-info-data{
     display: flex;
-    flex-direction: rox;
+    flex-direction: row;
 }
 section#movie-data #movie-info .movie-info-data div{
     display: flex;
@@ -64,9 +64,10 @@ section#movie-data #movie-info .movie-info-data div{
     justify-content: space-between;
     font-size: 18px;
     color: rgba(245, 246, 250,1.0);
+    min-width: 60%;
 }
 section#movie-data #movie-info .movie-info-data img{
-    width: 300px;
+    max-width: 300px;
 }
 section#movie-data #movie-info .movie-info-data p{
     margin-right: 10px;
@@ -95,4 +96,18 @@ section#movie-data #movie-info .movie-info-release{
 section#movie-data #movie-info .movie-info-release span{
     
     margin-right: 10px;
+}
+
+@media screen and (max-width: 767px){
+    section#movie-data #movie-info .movie-info-data{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    section#movie-data{
+        width: 100%;
+        margin: 0 auto;
+        padding: 20px 0 20px 20px;
+    }
 }
