@@ -19,6 +19,7 @@ section#movie-list article{
     color: #f5f6fa;
     box-shadow: 6px 6px 10px -4px rgba(0,0,0,.15);
     margin-bottom: 20px;
+    min-height: 440px;
 }
 section#movie-list article:hover{
     box-shadow: 10px 10px 10px -1px rgba(251, 197, 49,.4);
@@ -78,4 +79,11 @@ section#movie-list footer .movie-description p.movie-tags{
 }
 section#movie-list footer .movie-description p.movie-tags span:not(:first-child):before{
     content: ", ";
+}
+
+
+@media screen and (max-width: 767px){
+    section#movie-list{
+        justify-content: center;
+    }
 }

@@ -14,3 +14,9 @@ body{
     background: rgb(30,34,41);
     background: linear-gradient(0deg, rgba(30,34,41,1) 0%, rgba(53,59,72,1) 35%, rgba(25,42,86,1) 100%);
 }
+.sem-dados{
+    display: flex;
+    margin:20px;
+    color: #dcdde1;
+    justify-content: center;
+}
