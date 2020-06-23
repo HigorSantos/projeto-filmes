@@ -1,7 +1,7 @@
 header#main-header{
     background-color: #fff;
     height: 80px;
-    border-bottom: 1px solid darkgoldenrod;
+    border-bottom: 1px solid rgba(251, 197, 49,1.0);
 }
 
 header#main-header .header-content{
@@ -9,17 +9,32 @@ header#main-header .header-content{
     max-width: 980px;
     margin: 0 auto;
     height: 80px;
-    padding: 0 30px;
+    padding: 0 20px;
 
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-
+header#main-header .header-content .header-logos{
+    display: flex;
+    flex-direction: row;
+    margin-right: 5px;
+    min-width: 120px;
+    justify-content: space-between;
+}
 header#main-header .header-content .img-logo{
     height: 60px;
+    margin-right: 20px;
 }
-
+header#main-header .header-content .img-logo-p{
+    height: 60px;
+    display: none;
+}
+header#main-header .header-content .img-procurando{
+    height: 60px;
+    box-shadow: -10px -5px 10px -7px rgba(194, 54, 22,1);
+    margin: 0 5px;
+}
 
 header#main-header .header-content .header-search{
     display: flex;
@@ -45,3 +60,14 @@ header#main-header .header-content .header-search .input-search{
     border: 1px solid #ced4da;
     border-radius: .25rem;
 }   
+
+@media screen and (max-width: 767px){
+    header#main-header .header-content .img-logo{
+        height: 60px;
+        display: none;
+    }
+    header#main-header .header-content .img-logo-p{
+        height: 60px;
+        display: block;
+    }
+}

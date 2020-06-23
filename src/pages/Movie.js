@@ -27,7 +27,7 @@ class Movie extends Component{
         let m = min % 60;
         m = m < 10 ? "0" + m : m;
         return `${h}h ${m}m`;
-      };
+    };
     render(){
         const movieD = this.state.movie;
         if(!movieD || movieD.id !== Number(this.state.movieId) ){
