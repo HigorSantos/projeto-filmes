@@ -60,6 +60,7 @@ section#movie-list footer .movie-content .movie-info {
     flex-direction: column;
     line-height: 17px;
     font-size: 18px;
+    margin-top: 5px;
 }
 section#movie-list footer .movie-content .movie-info .movie-director{
     font-size: 13px;

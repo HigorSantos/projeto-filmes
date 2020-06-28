@@ -8,6 +8,7 @@ section#procurando-filme{
     margin-top: 20px;
     background-color: rgba(255, 255, 255, 0.5);
 }
+
 section#procurando-filme h1{
     color: rgba(251, 197, 49,1);
     text-shadow: 1px 1px rgba(47, 54, 64,.8);
@@ -86,6 +87,34 @@ div#procurando-tempo .grande{
 header#main-header{
     background-color: rgba(251, 197, 49,1.0) !important;
     border-bottom: 1px solid #fff;
+}
+
+div.procurando-exibindo{
+    width: 100%;
+    max-width: 950px;
+    margin: 0 auto;
+    padding: 5px 30px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: rgba(53, 59, 72,1.0);
+}
+
+div.procurando-exibindo h1, div.procurando-exibindo h2{
+    color: rgba(245, 246, 250,1.0);
+}
+div.procurando-exibindo h2{
+    margin-top: 10px;
+}
+div.procurando-exibindo #procurando-filme{
+    font-size: 18px;
+    padding: 2px 3px;
+    color:rgba(251, 197, 49,1.0);
+}
+div.procurando-exibindo #procurando-filme div{
+    background-color: rgba(225, 177, 44,.2);
+    padding: 2px 5px;
+    margin-top: 2px;
 }
 @media screen and (max-width: 767px){
     div#procurando-tempo div{

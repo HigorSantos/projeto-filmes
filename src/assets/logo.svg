@@ -21,6 +21,30 @@
      id="defs2">
     <linearGradient
        inkscape:collect="always"
+       id="linearGradient880">
+      <stop
+         style="stop-color:#c23616;stop-opacity:1"
+         offset="0"
+         id="stop876" />
+      <stop
+         style="stop-color:#ffffff;stop-opacity:1"
+         offset="1"
+         id="stop878" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient866"
+       inkscape:collect="always">
+      <stop
+         id="stop862"
+         offset="0"
+         style="stop-color:#c23616;stop-opacity:1" />
+      <stop
+         id="stop864"
+         offset="1"
+         style="stop-color:#ffffff;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
        id="linearGradient875">
       <stop
          style="stop-color:#c23616;stop-opacity:1;"
@@ -48,6 +72,26 @@
        x2="187.19247"
        y2="492.90176"
        gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient866"
+       id="linearGradient855"
+       x1="164.74184"
+       y1="542.99347"
+       x2="629.72296"
+       y2="542.99347"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99815896,0,0,1,0.27023012,0)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient880"
+       id="linearGradient874"
+       x1="164.74184"
+       y1="542.99347"
+       x2="629.72296"
+       y2="542.99347"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(0.99815896,0,0,1,0.27023012,0)" />
   </defs>
   <sodipodi:namedview
      id="base"
@@ -56,9 +100,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.35355339"
-     inkscape:cx="984.30144"
-     inkscape:cy="269.72735"
+     inkscape:zoom="0.5"
+     inkscape:cx="1208.0736"
+     inkscape:cy="288.75083"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -77,42 +121,43 @@
      fit-margin-top="0"
      fit-margin-left="0"
      fit-margin-right="0"
-     fit-margin-bottom="0">
+     fit-margin-bottom="0"
+     inkscape:lockguides="true">
     <sodipodi:guide
        position="-690.76462,340.53512"
        orientation="1,0"
        id="guide6603"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
        position="-415.59797,459.06845"
        orientation="0,1"
        id="guide6623"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
        position="-489.68133,-72.214846"
        orientation="0,1"
        id="guide6631"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
        position="520.72483,110.99227"
        orientation="0,1"
        id="guide6889"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
        position="554.59149,68.129771"
        orientation="1,0"
        id="guide6891"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
        position="590.83941,120.25269"
        orientation="1,0"
        id="guide6904"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
     <sodipodi:guide
        position="350.77134,57.943748"
        orientation="0,1"
        id="guide6906"
-       inkscape:locked="false" />
+       inkscape:locked="true" />
   </sodipodi:namedview>
   <metadata
      id="metadata5">
@@ -228,16 +273,10 @@
            x="220"
            y="-92.763336" /></flowRegion><flowPara
          id="flowPara6841" /></flowRoot>    <path
-       style="fill:#c23616;fill-opacity:1;stroke:#2f3640;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       d="m 462.45405,542.99344 c -316.84617,0 -315.67267,0 -315.67267,0"
+       style="fill:url(#linearGradient855);fill-opacity:1;stroke:url(#linearGradient874);stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       d="m 698.01096,542.99344 c -553.27872,0 -551.22953,0 -551.22953,0"
        id="path6893"
        inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path6902"
-       d="m 701.23239,542.86117 -238.77832,0.26458"
-       style="fill:#c23616;fill-opacity:1;stroke:#ffffff;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       sodipodi:nodetypes="cc" />
     <rect
        style="opacity:1;fill:#c23616;fill-opacity:1;stroke:#2f3640;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect869"

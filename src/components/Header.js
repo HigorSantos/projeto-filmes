@@ -16,7 +16,6 @@ class Header extends Component {
     async componentDidMount(){
         const searchTerms = this.props.match.params.searchTerms;
         this.setState({search: searchTerms});
-
     }
 
     handleChange = el =>{
@@ -29,7 +28,6 @@ class Header extends Component {
         }
       }
     render() {
-
         return(
             <header id="main-header">
                 <div className="header-content">

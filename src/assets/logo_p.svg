@@ -127,9 +127,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.70710678"
-     inkscape:cx="-303.62991"
-     inkscape:cy="143.67409"
+     inkscape:zoom="1.4142136"
+     inkscape:cx="157.48597"
+     inkscape:cy="129.43304"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -193,7 +193,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -253,12 +253,6 @@
        style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:condensed;font-size:141.1111145px;line-height:0;font-family:Bahnschrift;-inkscape-font-specification:'Bahnschrift Bold Condensed';text-align:end;letter-spacing:-3.96875px;word-spacing:0px;text-anchor:end;fill:url(#linearGradient903);fill-opacity:1;stroke:none;stroke-width:0.26458332"
        id="path6871"
        inkscape:connector-curvature="0" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path6902"
-       d="m 125.51245,384.32125 0.01,100.11442"
-       style="fill:#c23616;fill-opacity:1;stroke:#2f3640;stroke-width:6.00000048;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
-       sodipodi:nodetypes="cc" />
     <rect
        style="opacity:1;fill:#c23616;fill-opacity:1;stroke:#2f3640;stroke-width:6;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="rect869"
@@ -266,5 +260,12 @@
        height="54.62989"
        x="277.74338"
        y="251.83543" />
+    <rect
+       style="opacity:1;fill:#f5f6fa;fill-opacity:0.98431373;stroke:none;stroke-width:0.09999999;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
+       id="rect856"
+       width="1.5993702"
+       height="99.632904"
+       x="210.60446"
+       y="382.42111" />
   </g>
 </svg>
